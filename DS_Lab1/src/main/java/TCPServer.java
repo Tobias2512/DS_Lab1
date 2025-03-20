@@ -4,7 +4,7 @@ import java.util.concurrent.*;
 
 // TCP Server
 class TCPServer {
-    private static final int PORT = 12345;
+    private static final int PORT = 5000;
 
     public static void main(String[] args) {
         ExecutorService executor = Executors.newCachedThreadPool();

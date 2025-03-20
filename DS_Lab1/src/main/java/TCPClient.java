@@ -6,7 +6,7 @@ import java.net.Socket;
 
 class TCPClient {
     private static final String SERVER_IP = "127.0.0.1";
-    private static final int PORT = 12345;
+    private static final int PORT = 5000;
 
     public static void main(String[] args) {
         try (Socket socket = new Socket(SERVER_IP, PORT);
